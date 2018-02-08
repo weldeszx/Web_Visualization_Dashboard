@@ -1,0 +1,56 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    
+    margin-bottom: 60px;
+  }
+
+.panel-body{
+    background-color: #f8f8f8;
+    
+    
+}
+
+h2{
+    font-style: bold;
+    color: navy;
+}
+
+.panel{
+    padding: 10px;
+    background-color: #f8f8f8;
+
+}
+
+footer{
+    background-color: darkgray;
+    padding: 15px;
+    height: 60px;
+    width: 100%;
+    border-top: 10px;
+    border-top-color: navy;
+    border-width: 10px;
+    border-top-style: solid;
+    position: absolute;
+    bottom: 0;
+}
+
+.current-tag{
+    border: 5px;
+    border-width: 5px;
+    border-color: navy;
+    border-style: solid;
+}
+
+h3{
+    color: navy;
+    font-style: bold;
+    text-align: center;
+}
+
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: lightgray;
+ }
